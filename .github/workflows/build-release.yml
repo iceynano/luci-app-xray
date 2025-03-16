@@ -20,7 +20,7 @@ jobs:
         include:
           - arch: aarch64
             sdk_url_path: https://downloads.openwrt.org/releases/24.10.0/targets/bcm27xx/bcm2711
-            sdk_name: -sdk-24.10.0-aarch64_
+            sdk_name: -sdk-24.10.0-bcm27xx-bcm2711_
 
     env:
       SDK_URL_PATH: ${{ matrix.sdk_url_path }}
